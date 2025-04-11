@@ -9,10 +9,6 @@ int main(int argc, char *argv[]) {
         return 1;
     }
 
-    // File list and count
-    extern char *file_list[];
-    extern int file_count;
-
     for (int i = 1; i < argc && i < MAX_FILES; i++) {
         file_list[i - 1] = strdup(argv[i]);
         file_count++;
