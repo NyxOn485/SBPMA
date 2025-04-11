@@ -61,10 +61,6 @@ void create_gui() {
     Button calculate_button = { 300.0f, 200.0f, 200.0f, 50.0f, "Calculate" };
     Button clear_button = { 300.0f, 300.0f, 200.0f, 50.0f, "Clear List" };
 
-    // File list and count
-    char *file_list[MAX_FILES];
-    int file_count = 0;
-
     // Main loop
     while (!glfwWindowShouldClose(window)) {
         // Get mouse position
